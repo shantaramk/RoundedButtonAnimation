@@ -12,6 +12,7 @@
 		561AF1D321D4CA8A005BA745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561AF1D121D4CA8A005BA745 /* Main.storyboard */; };
 		561AF1D521D4CA9C005BA745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561AF1D421D4CA9C005BA745 /* Assets.xcassets */; };
 		561AF1D821D4CA9C005BA745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561AF1D621D4CA9C005BA745 /* LaunchScreen.storyboard */; };
+		561AF1E021D4CB51005BA745 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561AF1DF21D4CB51005BA745 /* RoundedShadowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		561AF1D421D4CA9C005BA745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		561AF1D721D4CA9C005BA745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		561AF1D921D4CA9C005BA745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561AF1DF21D4CB51005BA745 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				561AF1D421D4CA9C005BA745 /* Assets.xcassets */,
 				561AF1D621D4CA9C005BA745 /* LaunchScreen.storyboard */,
 				561AF1D921D4CA9C005BA745 /* Info.plist */,
+				561AF1DF21D4CB51005BA745 /* RoundedShadowButton.swift */,
 			);
 			path = RoundedButton;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				561AF1D021D4CA8A005BA745 /* ViewController.swift in Sources */,
 				561AF1CE21D4CA8A005BA745 /* AppDelegate.swift in Sources */,
+				561AF1E021D4CB51005BA745 /* RoundedShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +285,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = RoundedButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc.RoundedButton;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +304,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4BAP9K3F;
 				INFOPLIST_FILE = RoundedButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc.RoundedButton;
+				PRODUCT_BUNDLE_IDENTIFIER = www.www.abc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
